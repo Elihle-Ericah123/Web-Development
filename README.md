@@ -97,3 +97,9 @@ CHANGELOG-  Added
 - CRITICAL: All images not showing - corrected extension from .jpg to .jpeg to match actual files in images/ folder (burger.jpeg, chicken.jpeg, chips.jpeg, wings.jpeg, wrap.jpeg, family-meal.jpeg, restaurant.jpeg)
 - Family meal image not showing - removed duplicate file "family-meal - Copy.jpeg" that had spaces, standardized to family-meal.jpeg with dash
 - Removed all inline JavaScript (onerror, onclick) from HTML files - moved all logic to js/script.js as per Part 2 feedback
+
+   Part 2 Feedback
+- Fixed navigation links consistency (Home.html capital H issue)
+- Fixed folder structure
+- Updated content as per lecturer comments
+
