@@ -92,3 +92,8 @@ CHANGELOG-  Added
 - JavaScript form validation for enquiry.html (name, email, phone format, enquiry type)
 - JavaScript form validation for contact.html (name, email, message)
 - Restaurant image added to gallery
+
+ Fixed
+- CRITICAL: All images not showing - corrected extension from .jpg to .jpeg to match actual files in images/ folder (burger.jpeg, chicken.jpeg, chips.jpeg, wings.jpeg, wrap.jpeg, family-meal.jpeg, restaurant.jpeg)
+- Family meal image not showing - removed duplicate file "family-meal - Copy.jpeg" that had spaces, standardized to family-meal.jpeg with dash
+- Removed all inline JavaScript (onerror, onclick) from HTML files - moved all logic to js/script.js as per Part 2 feedback
