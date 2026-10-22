@@ -85,3 +85,10 @@ ChangelogPart 2 - 17 September 2026:Added CSS files for all 6 pagesChanged menu 
 COMMIT:
 Added maroon header and black navigation styling for all pagesFixed Part 1 feedback - changed menu page from purple to maroon and fixed invisible nav linksAdded responsive card layout for specials and fixed About page text cut offAdded moving Order Now button and updated README for Part 2
 
+PART 3
+CHANGELOG-  Added
+- Search bar functionality in menu.html using JavaScript (filters by dish name)
+- Image modal popup in menu.html and gallery.html - click to enlarge, click to close (as per perfume site example)
+- JavaScript form validation for enquiry.html (name, email, phone format, enquiry type)
+- JavaScript form validation for contact.html (name, email, message)
+- Restaurant image added to gallery
