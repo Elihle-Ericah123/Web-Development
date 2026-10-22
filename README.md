@@ -102,7 +102,17 @@ CHANGELOG-  Added
 - Fixed navigation links consistency (Home.html capital H issue)
 - Fixed folder structure
 - Updated content as per lecturer comments
-
 - ADDED ENQUIRY FILE (MADE IT ACTIVE)
 - MADE CONTACT PAGE (FILE) ACTIVE
+
+References
+ - Duckett, J. 2014. HTML and CSS: Design and Build Websites. 1st ed. Indianapolis: John Wiley & Sons.
+- Flanagan, D. 2020. JavaScript: The Definitive Guide. 7th ed. Sebastopol: O'Reilly Media.
+- GitHub, Inc. 2024. Creating and committing changes to your repository. [Online]. Available at: https://docs.github.com/en/desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project [Accessed 11 May 2026].
+- Mozilla Corporation. 2024. Client-side form validation. [Online]. Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation [Accessed 11 May 2026].
+- Mozilla Corporation. 2024. Using images in HTML. [Online]. Available at: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML [Accessed 11 May 2026].
+- Netlify, Inc. 2024. Deploy with GitHub. [Online]. Available at: https://docs.netlify.com/integrations/frameworks/ [Accessed 11 May 2026].
+- W3Schools. 2024. HTML Form Elements. [Online]. Available at: https://www.w3schools.com/html/html_form_elements.asp [Accessed 11 May 2026].
+- W3Schools. 2024. JavaScript Form Validation. [Online]. Available at: https://www.w3schools.com/js/js_validation.asp [Accessed 11 May 2026].
+- W3Schools. 2024. How To Create a Modal Image Gallery. [Online]. Available at: https://www.w3schools.com/howto/howto_css_modal_images.asp [Accessed 11 May 2026].
 
