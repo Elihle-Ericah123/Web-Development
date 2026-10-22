@@ -103,3 +103,5 @@ CHANGELOG-  Added
 - Fixed folder structure
 - Updated content as per lecturer comments
 
+- ADDED ENQUIRY FILE (MADE IT ACTIVE)
+
