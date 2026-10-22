@@ -104,4 +104,5 @@ CHANGELOG-  Added
 - Updated content as per lecturer comments
 
 - ADDED ENQUIRY FILE (MADE IT ACTIVE)
+- MADE CONTACT PAGE (FILE) ACTIVE
 
