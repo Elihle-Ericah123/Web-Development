@@ -1,108 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicole's Fried Chicken | Gallery</title>
-   <link rel="stylesheet" href="css/style.css">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery - Nicole's Fried Chicken</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+<header><h1>Nicole's Fried Chicken</h1></header>
+<nav>
+<a href="Home.html">Home</a><a href="about.html">About Us</a><a href="specials.html">Specials</a>
+<a href="menu.html">Menu</a><a href="gallery.html" class="active">Gallery</a><a href="contact.html">Contact Us</a><a href="enquiry.html">Enquiry</a>
+</nav>
 
-<header>
+<h2>OUR GALLERY</h2>
 
-    <h1>Nicole's Fried Chicken</h1>
+<section id="galleryList">
+<div class="menu-item"><h3>Fried Chicken</h3><img src="images/chicken.jpeg" alt="Fried Chicken"></div>
+<div class="menu-item"><h3>Burgers</h3><img src="images/burger.jpeg" alt="Chicken Burger"></div>
+<div class="menu-item"><h3>Wings</h3><img src="images/wings.jpeg" alt="Chicken Wings"></div>
+<div class="menu-item"><h3>Wraps</h3><img src="images/wrap.jpeg" alt="Chicken Wrap"></div>
+<div class="menu-item"><h3>Chips</h3><img src="images/chips.jpeg" alt="Chips"></div>
+<div class="menu-item"><h3>Family Meal</h3><img src="images/family-meal.jpeg" alt="Family Meal"></div>
+</section>
 
-    <nav>
-        <a href="Home.html">Home</a> |
-        <a href="about.html">About Us</a> |
-        <a href="menu.html">Menu</a> |
-        <a href="specials.html">Specials</a> |
-        <a href="gallery.html">Gallery</a> |
-        <a href="contact.html">Contact Us</a>
-    </nav>
+<div id="imageModal" class="image-modal">
+<span class="close-image">&times;</span>
+<img class="image-modal-content" id="fullImage">
+<div id="caption"></div>
+<p class="close-hint">Click anywhere to close ✕</p>
+</div>
 
-</header>
-
-<main>
-
-    <h2>Our Gallery</h2>
-
-    <p>
-        Take a look at some of our delicious meals and restaurant photos.
-    </p>
-
-    <section>
-
-        <!-- REPLACE THESE WITH YOUR OWN PHOTOS -->
-
-        <h3>Fried Chicken</h3>
-
-        <img src="C:\Users\Student\OneDrive - ADvTECH Ltd\Web Development\images\chicken.jpeg"
-             alt="Fresh fried chicken"
-             width="400">
-
-    </section>
-
-    <section>
-
-        <h3>Chicken Burger</h3>
-
-        <img src="C:\Users\Student\OneDrive - ADvTECH Ltd\Web Development\images\burger.jpeg"
-             alt="Chicken burger"
-             width="400">
-
-    </section>
-
-    <section>
-
-        <h3>Chicken Wings</h3>
-
-        <img src="C:\Users\Student\OneDrive - ADvTECH Ltd\Web Development\images\wings.jpeg"
-             alt="Chicken wings"
-             width="400">
-
-    </section>
-
-    <section>
-
-        <h3>Chicken Wrap</h3>
-
-        <img src="C:\Users\Student\OneDrive - ADvTECH Ltd\Web Development\images\wrap.jpeg"
-             alt="Chicken wrap"
-             width="400">
-
-    </section>
-
-    <section>
-
-        <h3>Chips</h3>
-
-        <img src="C:\Users\Student\OneDrive - ADvTECH Ltd\Web Development\images\chips.jpeg"
-             alt="Crispy chips"
-             width="400">
-
-    </section>
-
-    <section>
-
-        <h3>Restaurant</h3>
-
-        <img src="C:\Users\Student\OneDrive - ADvTECH Ltd\Web Development\images\restaurant.jpeg"
-             alt="Nicole's Fried Chicken restaurant"
-             width="400">
-
-    </section>
-
-</main>
-
-<footer>
-
-    <p>&copy; 2026 Nicole's Fried Chicken. All Rights Reserved.</p>
-
-</footer>
-
+<script src="js/script.js"></script>
 </body>
 </html>

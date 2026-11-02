@@ -1,146 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicole's Fried Chicken | Menu</title>
-   <link rel="stylesheet" href="css/style.css">
-
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu - Nicole's Fried Chicken</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+<header><h1>Nicole's Fried Chicken</h1></header>
+<nav>
+<a href="Home.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="specials.html">Specials</a>
+<a href="menu.html" class="active">Menu</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact Us</a>
+<a href="enquiry.html">Enquiry</a>
+</nav>
 
-<header>
+<h2>OUR MENU</h2>
 
-    <h1>Nicole's Fried Chicken</h1>
+<div class="search-container">
+<input type="text" id="menuSearch" placeholder=" Search menu...">
+</div>
 
-    <nav>
-        <a href="Home.html">Home</a> |
-        <a href="about.html">About Us</a> |
-        <a href="menu.html">Menu</a> |
-        <a href="specials.html">Specials</a> |
-        <a href="gallery.html">Gallery</a> |
-        <a href="contact.html">Contact Us</a>
-    </nav>
+<section id="menuList">
+<div class="menu-item"><h3>FRIED CHICKEN</h3><img src="images/chicken.jpeg" alt="Fried Chicken"><p>Price: R55</p></div>
+<div class="menu-item"><h3>BURGERS</h3><img src="images/burger.jpeg" alt="Chicken Burger"><p>Price: R56</p></div>
+<div class="menu-item"><h3>CHICKEN WINGS</h3><img src="images/wings.jpeg" alt="Chicken Wings"><p>Price: R56</p></div>
+<div class="menu-item"><h3>WRAPS</h3><img src="images/wrap.jpeg" alt="Chicken Wrap"><p>Price: R45</p></div>
+<div class="menu-item"><h3>CHIPS</h3><img src="images/chips.jpeg" alt="Chips"><p>Price: R25</p></div>
+<div class="menu-item"><h3>FAMILY MEALS</h3><img src="images/family-meal.jpeg" alt="Family Meal"><p>Price: R180</p></div>
+</section>
 
-</header>
+<!--POPUP - KEEP THIS -->
+<div id="imageModal" class="image-modal">
+<span class="close-image">&times;</span>
+<img class="image-modal-content" id="fullImage">
+<div id="caption"></div>
+<p class="close-hint">Click anywhere to close ✕</p>
+</div>
 
-<main>
-
-    <h2>Our Menu</h2>
-
-    <p>
-        Choose from our selection of freshly prepared meals.
-    </p>
-
-    <section>
-
-        <h2>Fried Chicken</h2>
-
-        <img src="C:\Users\Student\OneDrive - ADvTECH Ltd\Web Development\images\chicken.jpeg"
-             alt="Fried chicken meal"
-             width="300">
-
-        <p>Freshly prepared crispy fried chicken.</p>
-
-        
-        
-
-    </section>
-
-    <section>
-
-        <h2>Burgers</h2>
-
-        <img src="C:\Users\Student\OneDrive - ADvTECH Ltd\Web Development\images\burger.jpeg"
-             alt="Chicken burger"
-             width="300">
-
-        <p>
-            Delicious chicken burgers served with crispy chips.
-        </p>
-
-        <p><strong>Price: R55</strong></p>
-
-    </section>
-
-    <section>
-
-        <h2>Chicken Wings</h2>
-
-        <img src="C:\Users\Student\OneDrive - ADvTECH Ltd\Web Development\images\wings.jpeg"
-             alt="Chicken wings"
-             width="300">
-
-        <p>
-            Crispy and tasty chicken wings.
-        </p>
-
-        
-
-    </section>
-
-    <section>
-
-        <h2>Wraps</h2>
-
-        <img src="C:\Users\Student\OneDrive - ADvTECH Ltd\Web Development\images\wrap.jpeg"
-             alt="Chicken wrap"
-             width="300">
-
-        <p>
-            Fresh chicken wraps with delicious fillings.
-        </p>
-
-        <p><strong>Price: R45</strong></p>
-
-    </section>
-
-    <section>
-
-        <h2>Chips</h2>
-
-        <img src="C:\Users\Student\OneDrive - ADvTECH Ltd\Web Development\images\chips.jpeg"
-             alt="Hot chips"
-             width="300">
-
-        <p>
-            Crispy golden chips.
-        </p>
-
-        <p><strong>Price: R25</strong></p>
-
-    </section>
-
-    <section>
-
-        <h2>Family Meals</h2>
-
-        <img src="C:\Users\Student\OneDrive - ADvTECH Ltd\Web Development\images\family-meal.jpeg"
-             alt="Family meal"
-             width="300">
-
-        <p>
-            A delicious meal perfect for sharing with family.
-        </p>
-
-        <p><strong>Price: R180</strong></p>
-
-    </section>
-
-    <p>
-        <a href="specials.html">View Our Special Offers</a>
-    </p>
-
-</main>
-
-<footer>
-
-    <p>&copy; 2026 Nicole's Fried Chicken. All Rights Reserved.</p>
-
-</footer>
-
+<script src="js/script.js"></script>
 </body>
 </html>
