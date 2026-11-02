@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole's Fried Chicken | Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>Nicole's Fried Chicken</h1>
+    <nav>
+<a href="Home.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="specials.html">Specials</a>
+<a href="menu.html">Menu</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact Us</a>
+<a href="enquiry.html">Enquiry</a>
+    </nav>
+</header>
+<main>
+    <h2>Send Us an Enquiry</h2>
+    <form id="enquiryForm">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="8" cols="40" required></textarea><br><br>
+        <button type="submit">Send Enquiry</button>
+    </form>
+</main>
+<footer>
+    <p>&copy; 2026 Nicole's Fried Chicken. All Rights Reserved.</p>
+</footer>
+
+<a href="https://wa.me/27602122196?text=Hi%20Nicole's%20Fried%20Chicken%20I%20want%20to%20order!" target="_blank" id="whatsapp-btn">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA"> Chat to Order
+</a>
+
+<div id="successModal" class="fancy-modal">
+  <div class="fancy-modal-content">
+    <span class="close-fancy">&times;</span>
+    <div style="font-size:60px;"></div>
+    <h2>Cluckin' Awesome!</h2>
+    <p><b>Your craving just landed in our kitchen!</b></p>
+    <p>We fry back faster than you can say extra crispy! </p>
+    <button id="thanksBtn">YUM, THANKS!</button>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

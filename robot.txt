@@ -1,0 +1,3 @@
+User-agent: * 
+Allow:/
+Sitemap: https://meek-lily-22b4a1.netlify.app/Sitemap.xml
